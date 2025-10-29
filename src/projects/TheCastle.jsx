@@ -123,7 +123,9 @@ function TheCastle() {
             players to release the emotions they have accumulated.
           </p>
           <p>
-            Within this game, environmental storytelling serves as the primary narrative mechanism, with the narrative subject being the environmental settings in which the player-controlled protagonist is situated. These settings metaphorically symbolize the protagonist’s circumstances and emotions.
+            Within this game, environmental storytelling serves as the primary narrative mechanism, with the narrative subject 
+            being the environmental settings in which the player-controlled protagonist is situated. These settings metaphorically 
+            symbolize the protagonist’s circumstances and emotions.
           </p>
 
       </section>
