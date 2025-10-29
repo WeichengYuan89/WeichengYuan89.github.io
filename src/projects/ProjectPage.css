@@ -73,6 +73,12 @@
   gap: 1.8rem;
 }
 
+.project__body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .project__body p {
   margin: 0;
   color: rgba(231, 236, 245, 0.75);

@@ -19,7 +19,7 @@ function TheCastle() {
         </>
       }
       year="2023"
-      heroImage="/public/projectsImages/TheCastle/TheCastle0.png"
+      heroImage="/projectsImages/TheCastle/TheCastle0.png"
       heroAlt="Main Images"
     >
       <p>

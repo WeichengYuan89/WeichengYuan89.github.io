@@ -6,7 +6,7 @@ function Telia() {
       title="Inclusive UX Design with Begripsam"
       subtitle="Inclusive UX design project, Taking Telia as a study case, collaborating with Begripsam to enhance digital accessibility."
       year="2025"
-      heroImage="/public/projectsImages/Telia/Telia0.jpg"
+      heroImage="/projectsImages/Telia/Telia0.jpg"
       heroAlt="Telia Project Overview"
     >
       <h2>Background</h2>
