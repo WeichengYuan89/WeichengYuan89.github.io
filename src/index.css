@@ -28,6 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  font-family: sans-serif;
 }
 
 h1 {
@@ -65,4 +67,32 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+/* 左侧导航栏 */
+.sidebar {
+    width: 250px;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h1 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.sidebar a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+/* 主内容区域 */
+.main-content {
+    margin-left: 270px;
+    padding: 30px;
 }

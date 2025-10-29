@@ -1,0 +1,148 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 880px;
+}
+
+.project__header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.project__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: rgba(231, 236, 245, 0.55);
+}
+
+.project__back {
+  color: rgba(231, 236, 245, 0.7);
+}
+
+.project__back:hover {
+  color: #d6e9ff;
+}
+
+.project__year {
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.project__header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4.6vw, 3rem);
+}
+
+.project__subtitle {
+  margin: 0;
+  color: rgba(231, 236, 245, 0.72);
+  font-size: 1.05rem;
+}
+
+.project__link {
+  color: #7ab8ff;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+.project__link:hover {
+  color: #c9e4ff;
+}
+
+.project__hero {
+  border-radius: 22px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(19, 26, 36, 0.7);
+}
+
+.project__hero img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.project__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.project__body p {
+  margin: 0;
+  color: rgba(231, 236, 245, 0.75);
+  line-height: 1.8;
+}
+
+.project__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.project__list li {
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.project__list li::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0.7rem;
+  left: 0;
+  border-radius: 50%;
+  background: #7ab8ff;
+}
+
+.project__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project__tag {
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(122, 184, 255, 0.15);
+  border: 1px solid rgba(122, 184, 255, 0.25);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.three-act__wrap {
+  display: flow-root;
+}
+
+.project__image--right {
+  float: right;
+  width: min(540px, 80%);
+  margin: 0 1.5rem 1rem 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .project__image--right {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .project__meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
