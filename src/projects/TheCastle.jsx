@@ -3,20 +3,11 @@ import ProjectLayout from './ProjectLayout.jsx'
 function TheCastle() {
   return (
     <ProjectLayout
-      title="The Castle"
+      title="the castle"
       subtitle={
-        <>
-          A Puzzle Adventure Game on Unity. Read the full paper:{' '}
-          <a
-            className="project__link"
-            href="https://www.researchgate.net/publication/382405312_Design_and_Implementation_of_Puzzle_Adventure_Game_Based_on_Unity"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Design and Implementation of Puzzle Adventure Game Based on Unity
-          </a>
-          .
-        </>
+        <span className="project__subtitle--8bit">
+          Sorry. But your princess is in another castle!
+        </span>
       }
       year="2023"
       heroImage="/projectsImages/TheCastle/TheCastle0.png"
@@ -103,7 +94,8 @@ function TheCastle() {
           <h3>Three-Act Narrative</h3>
           <p className="three-act__wrap">
             <img
-              className="project__image--right"
+              className="project__image--right" 
+              width={"60%"} margin={"0 1.5rem 1rem 1.5rem"}
               src="/projectsImages/TheCastle/TheCastle3.png"
               alt="Three-act structure diagram"
             />
@@ -128,6 +120,22 @@ function TheCastle() {
             symbolize the protagonist’s circumstances and emotions.
           </p>
 
+      </section>
+
+      <section><p>...</p></section>
+
+      <section>
+        <p>
+          Read the full paper:{' '}
+          <a
+            className="project__link"
+            href="https://www.researchgate.net/publication/382405312_Design_and_Implementation_of_Puzzle_Adventure_Game_Based_on_Unity"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Design and Implementation of Puzzle Adventure Game Based on Unity
+          </a>
+          </p>
       </section>
 
       <section>

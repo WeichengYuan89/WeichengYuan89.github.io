@@ -6,9 +6,9 @@ function ProjectLayout({ title, subtitle, year, heroImage, heroAlt, children }) 
     <article className="project">
       <header className="project__header">
         <div className="project__meta">
-          <Link to="/" className="project__back">
-            ← Back to home
-          </Link>
+          {/* <Link to="/" className="project__back">
+            weicheng yuan
+          </Link> */}
           <span className="project__year">{year}</span>
         </div>
         <h1>{title}</h1>

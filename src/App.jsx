@@ -34,7 +34,7 @@ function App() {
       >
         <div className="layout__brand">
           <NavLink to="/" className="layout__title" onClick={closeMenu}>
-            Weicheng&nbsp;Yuan
+            weicheng&nbsp;yuan
           </NavLink>
           {/* <p className="layout__tagline">袁炜程</p> */}
         </div>
@@ -47,12 +47,14 @@ function App() {
           >
             About
           </NavLink> */}
-          <p className="layout__section-label">Projects</p>
+          <p className="layout__section-label">/projects</p>
           {projects.map((project) => (
             <NavLink
               key={project.slug}
               to={`/projects/${project.slug}`}
-              className={({ isActive }) => `layout__link${isActive ? ' layout__link--active' : ''}`}
+              className={({ isActive }) =>
+                `layout__link layout__link--project${isActive ? ' layout__link--active' : ''}`
+              }
               onClick={closeMenu}
             >
               {project.title}

@@ -3,7 +3,7 @@ import ProjectLayout from './ProjectLayout.jsx'
 function Telia() {
   return (
     <ProjectLayout
-      title="Inclusive UX Design with Begripsam"
+      title="inclusive ux design with begripsam"
       subtitle="Inclusive UX design project, Taking Telia as a study case, collaborating with Begripsam to enhance digital accessibility."
       year="2025"
       heroImage="/projectsImages/Telia/Telia0.jpg"
