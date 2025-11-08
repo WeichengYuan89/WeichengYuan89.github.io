@@ -14,13 +14,12 @@ function TheCastle() {
       heroAlt="Main Images"
     >
       <p>
-        The castle is a puzzle adventure game design and implement by myself 
-        as a bachelor degree project. In this game, you play as a little boy 
-        start the journey to the castle to save the princess. You can experience 
+        The castle is a puzzle adventure game that you play as a little boy 
+        start the journey to the castle to save the princess. Player can experience 
         thrilling adventure in a mysterious world, and achieve a sense of accomplishment 
         by solving puzzles and overcoming obstacles.
       </p>
-      <p>
+      {/* <p>
         The game design is carried out through multiple aspects such as game art 
         style, plot, sound effects, and game puzzles to provide players with an 
         interesting gameplay experience. For the implementation part of the game, 
@@ -32,7 +31,7 @@ function TheCastle() {
         in the game. At the same time, optimization was carried out based on the test results, 
         improving the experience of user interface and the stability of game program, further 
         enhancing the player’s gameplay experience.
-      </p>
+      </p> */}
 
       <section>
         <img

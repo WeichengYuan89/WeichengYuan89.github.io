@@ -4,7 +4,7 @@ function Telia() {
   return (
     <ProjectLayout
       title="inclusive ux design with begripsam"
-      subtitle="Inclusive UX design project, Taking Telia as a study case, collaborating with Begripsam to enhance digital accessibility."
+      subtitle="Inclusive UX design project, taking Telia as a study case, collaborating with Begripsam to enhance digital accessibility."
       year="2025"
       heroImage="/projectsImages/Telia/Telia0.jpg"
       heroAlt="Telia Project Overview"
@@ -38,7 +38,57 @@ function Telia() {
             This raised a question for us: Is the tool actually accurate? Although it follows the standard guidelines, it 
             does not seem to be fully accessible for a diverse group of users.
         </p>
+        <h3>Human-Centered Evaluation and Consultation</h3>
+        <p>
+          In order to gain first hand insights from those who have accessibility issues with Telia, We had a Consultation 
+          with people in Begripsam, an organization dedicated to promoting accessibility and inclusiveness. We interview 
+          the people with different kinds of conditions: Dyslexia, ADHD, Autism, Rheumatism, etc. We found out the accessibility 
+          barriers they have when using Telia’s services and gained valuable insights of how to improve the service by inclusive redesign.
+        </p>
       </section>
+
+      <section>
+        <h2>Prototyping</h2>
+        <img 
+        width={"90%"}
+        src="/projectsImages/Telia/Telia1.png"
+        alt="Telia Prototype Design Example"
+        />
+        <p>
+          Based on the Evaluation, we extracted insights from information we received from notes and the transcription of the interview. 
+          We had a brainstorming of the ideation and conceptual design on how to optimize the Telia’s service.
+        </p>
+        <p>
+          In our lo-fi prototype, we apply user journey to describe the scenario we’d like to see with our redesigned Telia services. 
+        </p>
+          <h3>User Journey of Tree Choices</h3>
+          <p>
+            To reduce cognitive overload, we created "tree choices" to simplify navigation and help users quickly find 
+            the right function. This feature supports users with social anxiety who may find it difficult to call customer service. 
+            If they still don’t find answers, they’re encouraged to use the Virtual Service feature.
+          </p>
+        <img 
+        width={"90%"}
+        src="/projectsImages/Telia/Telia2.png"
+        alt="Telia Prototype User Journey"
+        />
+        <h3>User Journey of Immersive Reader</h3>
+        <p>
+          This function was developed based on requests from many interviewees who had specific needs for font size, 
+          line spacing, and color customization. Allowing users to personalize these settings would enhance their experience and usability 
+          of the website.
+        </p>
+        <img 
+        width={"90%"}
+        src="/projectsImages/Telia/Telia3.png"
+        alt="Telia Prototype Immersive Reader"
+        />
+      </section>
+
+      {/* <section>
+        <h3>About Begripsam</h3>
+        <p></p>
+      </section> */}
 
       <section>
         <h2>Toolbox</h2>
